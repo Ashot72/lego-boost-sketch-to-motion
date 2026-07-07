@@ -1,0 +1,25 @@
+Extract a robot path plan from a top-view grid sketch (ROBOT PATH DRAWING).
+
+Scale: 1 grid square = 50 mm (use the sketch label if different). Distances in mm.
+
+Trace the blue path from START to END. Output alternating straight and turn commands.
+
+Straights — read (x, y) at both ends of each straight segment only:
+  - Vertical: distance = |Δy| × 50
+  - Horizontal: distance = |Δx| × 50
+  - Measure between segment endpoints, not from axis 0 unless the path starts there.
+  - Stop before corners; do not count corner cells in straight distance.
+  - Every straight distance is a multiple of 50.
+
+Turns — Pybricks DriveBase.turn: positive = left/CCW, negative = right/CW.
+  - Use turn labels on the sketch when present (e.g. "Turn right 90°" → −90).
+  - Otherwise derive angle from heading change at the corner (Up=0°, Right=90°, Down=180°, Left=270°).
+
+Example output shape (values must come from THIS sketch):
+{
+  "commands": [
+    { "type": "straight", "distance": 150 },
+    { "type": "turn", "angle": -90 },
+    { "type": "straight", "distance": 450 }
+  ]
+}

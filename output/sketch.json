@@ -1,0 +1,79 @@
+{
+  "commands": [
+    {
+      "type": "straight",
+      "distance": 250,
+      "angle": null
+    },
+    {
+      "type": "turn",
+      "distance": null,
+      "angle": -53
+    },
+    {
+      "type": "straight",
+      "distance": 200,
+      "angle": null
+    },
+    {
+      "type": "turn",
+      "distance": null,
+      "angle": 27
+    },
+    {
+      "type": "straight",
+      "distance": 335,
+      "angle": null
+    },
+    {
+      "type": "turn",
+      "distance": null,
+      "angle": 63
+    },
+    {
+      "type": "straight",
+      "distance": 250,
+      "angle": null
+    },
+    {
+      "type": "turn",
+      "distance": null,
+      "angle": 90
+    },
+    {
+      "type": "straight",
+      "distance": 250,
+      "angle": null
+    },
+    {
+      "type": "turn",
+      "distance": null,
+      "angle": 45
+    },
+    {
+      "type": "straight",
+      "distance": 283,
+      "angle": null
+    },
+    {
+      "type": "turn",
+      "distance": null,
+      "angle": -72
+    },
+    {
+      "type": "straight",
+      "distance": 224,
+      "angle": null
+    },
+    {
+      "type": "turn",
+      "distance": null,
+      "angle": -63
+    },
+    {
+      "type": "straight",
+      "distance": 50,
+      "angle": null
+    }
+  ]
+}
