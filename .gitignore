@@ -6,8 +6,6 @@ venv/
 .venv/
 env/
 
-# Host-generated hub scripts (temporary)
-_generated/
 
 # Python bytecode
 __pycache__/
