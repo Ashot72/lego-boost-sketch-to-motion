@@ -6,11 +6,11 @@
 
 📄 The generated JSON:
 
-📏 Converts grid squares into millimeter distances (default: 50 mm per square)
-🔄 Uses Pybricks angle conventions (positive = left turn, negative = right turn)
-✅ Is validated using Pydantic models
-📂 Is saved under output/
-⚙️ Is converted into Pybricks DriveBase robot code
+- 📏 Converts grid squares into millimeter distances (default: 50 mm per square)
+- 🔄 Uses Pybricks angle conventions (positive = left turn, negative = right turn)
+- ✅ Is validated using Pydantic models
+- 📂 Is saved under `output/`
+- ⚙️ Is converted into Pybricks DriveBase robot code
 
 📡 The host application connects to the LEGO BOOST Move Hub over Bluetooth, uploads the generated program, and runs the robot so it follows the drawn path autonomously.
 
